@@ -20,6 +20,8 @@ declare module 'tio.js' {
     languages: () => Promise<string[]>;
     version: string;
   }
+
+  declare const tio: Tio;
   
-  export = Tio;
+  export = tio;
 }
